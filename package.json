@@ -1,7 +1,28 @@
 {
   "name": "mcp-proofjson",
-  "version": "0.1.0",
-  "description": "ProofJSON MCP server (stdio) — assess invoices before payment, supplied_data_only. Local only; no public remote.",
+  "version": "0.1.1",
+  "description": "ProofJSON MCP server for AI agents — local stdio tools for verifiable structured JSON outputs, supplied_data_only.",
+  "keywords": [
+    "proofjson",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "json",
+    "verification",
+    "structured-outputs",
+    "a2a",
+    "invoice"
+  ],
+  "homepage": "https://proofjson.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proofjson/mcp-proofjson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/proofjson/mcp-proofjson/issues"
+  },
+  "license": "MIT",
+  "author": "Advanced Dynamics SA",
   "type": "module",
   "bin": {
     "mcp-proofjson": "dist/index.js"
@@ -17,5 +38,5 @@
     "typescript": "^5.5.0",
     "@types/node": "^20.0.0"
   },
-  "mcpName": "io.github.heldertnn-glitch/mcp-proofjson"
+  "mcpName": "io.github.proofjson/mcp-proofjson"
 }
